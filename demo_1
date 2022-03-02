@@ -1,0 +1,12 @@
+public class Log_test {
+
+	@Test
+	public void Names () {
+		
+		String exp = "James" ; 
+		
+		String act = "James";
+		
+		Assert.assertEquals(act, exp);
+		
+	}
